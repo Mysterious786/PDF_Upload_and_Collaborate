@@ -50,7 +50,7 @@ export default function UploadPdf() {
         setFile(droppedFile)
       } else {
         toast({
-          title: "Invalid file type",
+          title: "Invalid file type/Check file size limit is 9MB max",
           description: "Please upload a PDF file",
           variant: "destructive",
         })
